@@ -1,6 +1,6 @@
-#include <linux/init.h>             // Macros used to mark up functions e.g., __init __exit
-#include <linux/module.h>           // Core header for loading LKMs into the kernel
-#include <linux/kernel.h>           // Contains types, macros, functions for the kernel
+#include <linux/init.h>             
+#include <linux/module.h>           
+#include <linux/kernel.h>           
 
 #include <linux/types.h>
 #include <linux/sched.h>
@@ -15,7 +15,7 @@
 #include <linux/etherdevice.h>
 #include <linux/netdevice.h> 
 #include <linux/etherdevice.h>
-//#include <linux/string.h>
+
 #include <linux/ip.h> 
 #include <linux/udp.h>
 
